@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "LocalServicesMarketplaceExpo",
-    "slug": "LocalServicesMarketplaceExpo",
+    "name": "HandiGO",
+    "slug": "HandiGO",
     "version": "1.0.0",
-    "description": "TODO: Add a short description for Play Store", 
+    "description": "HandiGO is a local services marketplace app connecting users with trusted professionals for a variety of tasks and services in their area.",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "automatic", 
+    "userInterfaceStyle": "automatic",
     "primaryColor": "#ffffff",
     "newArchEnabled": true,
     "splash": {
@@ -16,23 +16,22 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourcompany.localservices" 
+      "bundleIdentifier": "com.josetorres.handigo"
     },
     "android": {
-      "package": "com.yourcompany.localservices", 
-      "versionCode": 1, 
+      "package": "com.josetorres.handigo",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "permissions": [], 
-      "googleServicesFile": "./google-services.json", 
+      "permissions": [],
       "edgeToEdgeEnabled": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "privacy": "public", 
+    "privacy": "public",
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -43,7 +42,7 @@
       "expo-secure-store"
     ],
     "extra": {
-      "privacyPolicyUrl": "https://yourdomain.com/privacy-policy" 
+      "privacyPolicyUrl": "https://jtorres160.github.io/HandiGO/"
     }
   }
 }
